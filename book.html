@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Free Call - Kyanite AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background layers -->
+  <div class="gradient-background"></div>
+  <div class="dotted-grid"></div>
+  <div class="blur-shapes">
+    <div class="blur-shape shape-1"></div>
+    <div class="blur-shape shape-2"></div>
+    <div class="blur-shape shape-3"></div>
+    <div class="blur-shape shape-4"></div>
+    <div class="blur-shape shape-5"></div>
+    <div class="blur-shape shape-6"></div>
+  </div>
+
+  <!-- Back button -->
+  <header class="back-header">
+    <a href="index.html" class="back-btn">← Back to Home</a>
+  </header>
+
+  <main class="booking-container">
+    <h1 class="section-header">Book a Free Call</h1>
+
+  <form action="#" method="POST" class="booking-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="company" placeholder="Company Name">
+  
+    <select name="service" required>
+      <option value="" disabled selected>Select Service</option>
+      <option value="chatbots">AI Chatbots</option>
+      <option value="automation">Workflow Automation</option>
+      <option value="websites">Website Creation</option>
+      <option value="ads">Meta Ads</option>
+      <option value="custom">Custom AI Solution</option>
+    </select>
+  
+    <select name="budget">
+      <option value="" disabled selected>Budget Range</option>
+      <option value="500-1000">$500 - $1,000</option>
+      <option value="1000-5000">$1,000 - $5,000</option>
+      <option value="5000+">$5,000+</option>
+    </select>
+  
+    <textarea name="details" placeholder="Tell us more about your project..." rows="5"></textarea>
+
+    <div class="form-footer">
+      <button type="submit" class="cta-btn">Submit</button>
+    </div>
+  </form>
+  </main>
+</body>
+</html>
